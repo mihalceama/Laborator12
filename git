@@ -38,6 +38,7 @@ int Object::equals (Object& obj)
     obj->print();
     cout<<endl;
     a.print();
+    cout<<endl;
     if(a == *obj)
     {
         cout<<endl;
@@ -49,7 +50,7 @@ int Object::equals (Object& obj)
         cout<<endl;
         cout<<"Adrese diferite";
     }
-
+    cout<<endl;
     if(obj->equals(*obj))
     {
         cout << endl;
@@ -61,7 +62,7 @@ int Object::equals (Object& obj)
         cout << endl ;
         cout << "Adrese diferite";
     }
-
+    cout<<endl;
     Object *abj = new Object();
     if(obj->equals(*abj))
     {
@@ -73,5 +74,5 @@ int Object::equals (Object& obj)
         cout << endl;
         cout << "Adrese diferite";
     }
-
+    cout<<endl;
  }
